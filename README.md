@@ -6,7 +6,7 @@ Welcome to the **Awesome-AGReID** Repository! This repository curates cutting-ed
 
 ## Our Papers
 
-* **\[ICCV2025-SD-ReID]**
+* **\[SD-ReID]**
   *SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification*
   [Paper](https://arxiv.org/abs/2504.09549) ([arXiv][1])
 
