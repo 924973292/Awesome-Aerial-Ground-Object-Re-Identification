@@ -16,7 +16,27 @@ Welcome to the **Awesome-AGReID** Repository! This repository curates cutting-ed
 
 ---
 
-## Methods (newest first)
+## Methods
+
+* **\[Drones2025]**  
+  Unsupervised aerial-ground person to group re-identification for UAV surveillance.  
+  [Paper](https://doi.org/10.3390/drones9040244)
+
+* **\[IJCB2025-AG-VPReID-VIR]**  
+  Aerial-ground visible-infrared video person ReID dataset.  
+  [Paper](https://arxiv.org/abs/2507.17995)
+
+* **\[RS2025-AG-VehicleReID]**  
+  Aerial-ground cross-view vehicle ReID dataset and baseline.  
+  [Paper](https://www.mdpi.com/2072-4292/17/15/2653)
+
+* **\[Sensors2025-CVNet]**  
+  Lightweight cross-view vehicle ReID with multi-scale localization.  
+  [Paper](https://www.mdpi.com/1424-8220/25/9/2809)
+
+* **\[SPL2025-3D-HumanReID]**  
+  Omni-directional view person ReID through 3D human reconstruction.  
+  [Paper](https://www.researchgate.net/publication/387973999_Omni-Directional_View_Person_Re-Identification_Through_3D_Human_Reconstruction)
 
 * **\[CVPR2025-AG-VPReID-Net]**
   *AG-VPReID-Net: Video-based Aerial–Ground Re-ID framework*
@@ -25,6 +45,18 @@ Welcome to the **Awesome-AGReID** Repository! This repository curates cutting-ed
 * **\[ArXiv2025-MP-ReID]**
   *Multi-modal Multi-platform Person Re-Identification*
   [Paper](https://arxiv.org/abs/2503.17096)
+
+* **\[CVPR2025-SeCap]**  
+  *SeCap: Self-Calibrating and Adaptive Person Re-Identification in Aerial-Ground Networks*  
+  [Paper](https://arxiv.org/abs/2503.06965)
+
+* **\[ICME2025-DTS]**  
+  *Dynamic Token Selective Transformer for Aerial-Ground Person Re-identification*  
+  [Paper](https://arxiv.org/abs/2412.00433)
+
+* **\[ECCV2024-CrossPlatform-ReID]**  
+  Cross-platform video person ReID dataset and adaptation method.  
+  [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03918.pdf)
 
 * **\[CVPR2024-VDT]**
   *View-decoupled Transformer (VDT) for AGPReID*
