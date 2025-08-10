@@ -22,7 +22,7 @@ Welcome to the **Awesome-AGReID** Repository! This repository curates cutting-ed
   *AG-VPReID-Net: Video-based Aerial–Ground Re-ID framework*
   [Paper](https://arxiv.org/abs/2503.08121) ([arXiv][2], [CVPR 2025][3])
 
-* **\[CVPR2025-MP-ReID]**
+* **\[ArXiv2025-MP-ReID]**
   *Multi-modal Multi-platform Person Re-Identification*
   [Paper](https://arxiv.org/abs/2503.17096)
 
