@@ -1,135 +1,114 @@
-# Awesome-Multi-Modal Object Re-Identification Repository
+# Awesome-Aerial-Ground-Object-Re-Identification
 
-Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
+Welcome to the **Awesome-AGReID** Repository! This repository curates cutting-edge methods and benchmarks dedicated to Aerial–Ground Object Re-Identification (AG-ReID).
 
-## My Papers
-- [CVPR25-IDEA]<br>*IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2503.10324) [Code](<https://github.com/924973292/IDEA>)
-- [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/DeMo>)
-- [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Paper](https://arxiv.org/pdf/2412.10707) [Code](<https://github.com/924973292/MambaPro>)
-- [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
-- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
+---
 
-## Multi-Modal ReID
+## Our Papers
 
-### Methods
+* **\[ICCV2025-SD-ReID]**
+  *SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification*
+  [Paper](https://arxiv.org/abs/2504.09549) ([arXiv][1])
 
-#### Multi-Modal Object ReID
-- [TIP25-DESANet]<br>*Escaping Modal Interactions: An Efficient DESANet for Multi-Modal Object Re-identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/11104996) [Code](https://github.com/DWJ11/DESANet)
-- [CSCWD25-LMCNet]<br>*Lightweight Multi-Branch Feature Complementary Network for Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11033597)
-- [ArXiv25-UGG-ReID]<br>*UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2507.04638)
-- [ICML25-MFRNet]<br>*Multi-Modal Object Re-Identification via Sparse Mixture-of-Experts*<br>[Paper](https://openreview.net/pdf?id=uvFE58mSnR) [Code](https://github.com/stone96123/MFRNet)
-- [ArXiv25-NEXT]<br>*NEXT: Multi-Grained Mixture of Experts via Text-Modulation for Multi-Modal Object Re-ID*<br>[Paper](https://arxiv.org/pdf/2505.20001)
-- [TMM25-ICPL]<br>*ICPL-ReID: Identity-Conditional Prompt Learning for Multi-Spectral Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2505.17821) [Code](https://github.com/lsh-ahu/ICPL-ReID)
-- [ArXiv25-MGRNet]<br>*Reliable Multi-Modal Object Re-Identification via Modality-Aware Graph Reasoning*<br>[Paper](https://arxiv.org/pdf/2504.14847)
-- [WACV25-DMPT]<br>*DMPT: Decoupled Modality-Aware Prompt Tuning for Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/10944073)
-- [TIP25-PromptMA]<br>*Prompt-Based Modality Alignment for Effective Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/10955143) [Code](<https://github.com/FHR-L/PromptMA>)
-- [CVPR25-IDEA]<br>*IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2503.10324) [Code](<https://github.com/924973292/IDEA>)
-- [ArXiv25]<br>*Modality Unified Attack for Omni-Modality Person Re-Identification*<br>[Paper](https://arxiv.org/pdf/2501.12761)
-- [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/DeMo>)
-- [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Paper](https://arxiv.org/pdf/2412.10707) [Code](<https://github.com/924973292/MambaPro>)
-- [TCSVT24-RSCNet]<br>*Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/abstract/document/10772090>)
-- [ESWA25-LRMM]<br>*LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417424025831>)
-- [Sensors24-MambaReID]<br>*MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/24/14/4639>)
-- [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
-- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
-- [AAAI24-HTT]<br>*Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/28398>) [Code](<https://github.com/ziwang1121/HTT>)
-- [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
-- [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
+* **\[LATeX]**
+  *LATeX: Leveraging Attribute-based Text Knowledge for Aerial–Ground Person Re-Identification*
+  [Paper](https://arxiv.org/abs/2503.23722)
 
-#### Multi-Modal Person ReID
-- [TNNLS25-TIENet]<br>*TIENet: A Tri-Interaction Enhancement Network for Multimodal Person Reidentification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10934016>)
-- [MLCCIM23-MMCF]<br>*Multimodal Consistency Co-Assisted Training for Person Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10339497>)
-- [ICSP23-LRFNet]<br>*Low-rank Fusion Network for Multi-modality Person Re-identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10248672>)
-- [TNNLS23-DENet]<br>*Dynamic Enhancement Network for Partial Multi-modality Person Re-identification*<br>[Paper](https://arxiv.org/abs/2305.15762)
-- [AAAI22-IEEE]<br>*Interact, Embed, and EnlargE: Boosting Modality-Specific Representations for Multi-Modal Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/20165>) [Code](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
-- [AAAI21-PFNet]<br>*Robust Multi-Modality Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/16467>)
+---
 
+## Methods (newest first)
 
-#### Multi-Modal Vehicle ReID
-- [IEEE Access25-SV2SAFA-V1]<br>*Swin Transformer With Late-Fusion Feature Aggregation for Multi-Modal Vehicle Reidentification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/11087485)
-- [ArXiv25-CoEN]<br>*Collaborative Enhancement Network for Low-quality Multi-spectral Vehicle Re-identification*<br>[Paper](https://arxiv.org/pdf/2504.14877) [Code](https://github.com/yongqisun/CoEN)
-- [Applied Intelligence25]<br>*Generalizable Multi-spectral Vehicle Re-identification via Decoupled Subspaces*<br>[Paper](<https://link.springer.com/chapter/10.1007/978-981-96-1904-7_2>)
-- [ESWA25-WTSF-ReID]<br>*Depth-driven Window-oriented Token Selection and Fusion for multi-modality vehicle re-identification with knowledge consistency constraint*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417425005433?via=ihub>) [Code](<https://github.com/unicofu/WTSF-ReID>)
-- [Inform Fusion24-FACENet]<br>*Flare-aware cross-modal enhancement network for multi-spectral vehicle Re-identification*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S1566253524005785>) [Code](<https://github.com/Mzq12138/Official-Implementation-for-Flare-Aware-Cross-modal-Enhancement-for-Multi-spectral-Vehicle-ReID?tab=readme-ov-file>)
-- [Sensors23-PHT]<br>*Progressively Hybrid Transformer for Multi-Modal Vehicle Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/23/9/4206>)
-- [TITS23-GPFNet]<br>*Graph-based progressive fusion network for multi-modality vehicle re-identification*<br>[Paper](<https://ieeexplore.ieee.org/document/10159551>)
-- [Inform Fusion22-CCNet]<br>*Multi-spectral Vehicle Re-identification with Cross-directional Consistency Network and A High-quality Benchmark*<br>[Paper](<https://arxiv.org/abs/2208.00632>) [Code](<https://github.com/superlollipop123/Cross-directional-Center-Network-and-MSVR310>)
-- [ICSP22-GAFNet]<br>*Generative and attentive fusion for multi-spectral vehicle re-identification*<br>[Paper](<https://ieeexplore.ieee.org/document/9778769?denied=>)
-- [AAAI20-HAMNet]<br>*Multi-Spectral Vehicle Re-Identification: A Challenge*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/6796>) [Code](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
+* **\[CVPR2025-AG-VPReID-Net]**
+  *AG-VPReID-Net: Video-based Aerial–Ground Re-ID framework*
+  [Paper](https://arxiv.org/abs/2503.08121) ([arXiv][2], [CVPR 2025][3])
 
-### Datasets
-#### Multi-Modal Person ReID
-- [RGBNT201(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
-- [Market1501-MM(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
-#### Multi-Modal Vehicle ReID
-- [RGBNT100(RGB+NIR+TIR)](<https://pan.baidu.com/s/1xqqh7N4Lctm3RcUdskG0Ug>) (rjin) 
-- [RGBNT300(RGB+NIR)](https://pan.baidu.com/s/1uiKcqiqdhd13nLSW8TUASg) (11y8)
-- [MSVR310(RGB+NIR+TIR)](https://drive.google.com/file/d/1IxI-fGiluPO_Ies6YjDHeTEuVYhFdYwD/view?usp=drive_link)
-- [MSVWild863(RGB+NIR+TIR)](https://github.com/Mzq12138/Official-Implementation-for-Flare-Aware-Cross-modal-Enhancement-for-Multi-spectral-Vehicle-ReID?tab=readme-ov-file) (msvw)
+* **\[CVPR2025-MP-ReID]**
+  *Multi-modal Multi-platform Person Re-Identification*
+  [Paper](https://arxiv.org/abs/2503.17096)
 
-## Star History
+* **\[CVPR2024-VDT]**
+  *View-decoupled Transformer (VDT) for AGPReID*
+  [Paper](https://arxiv.org/abs/2403.14513) ([arXiv][4])
 
-[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-Multi-Modal-Object-Re-Identification&type=Date)](https://star-history.com/#924973292/Awesome-Multi-Modal-Object-Re-Identification&Date)
+* **\[ICME2023-AG-ReID]**
+  *AG-ReID (v1): Aerial–Ground Person Re-Identification dataset and baseline*
+  [Paper & Dataset](https://arxiv.org/abs/2303.08597) ([arXiv][5], [GitHub][6])
 
-## Acknowledgments
+---
 
-I want to express my gratitude to the academic community and everyone contributing to the advancement of multi-modal object re-identification research.
+## Datasets
+
+* **DetReIDX (2025)** – Large-scale stress-test AG-ReID dataset with 13M+ bounding boxes, 509 IDs across 7 campuses. [Dataset & Paper](https://arxiv.org/html/2505.04793v1) ([arXiv][7])
+
+* **AG-VPReID (2025)** – Video-based AG-ReID dataset: 6,632 IDs, 32,321 tracklets, 9.6M frames. [Dataset & Paper](https://arxiv.org/abs/2503.08121) ([arXiv][2], [CVF开放访问][8])
+
+* **AG-ReID.v2 (2024)** – Large-scale image-based AG-ReID: 1,615 IDs, 100,502 images, rich attribute annotations. [Dataset & GitHub](https://github.com/huynguyen792/AG-ReID.v2) ([arXiv][9], [GitHub][10])
+
+* **AG-ReID.v1 (2023)** – First AG-ReID dataset: 388 IDs, 21,983 images, with attribute-level annotations. [Dataset & GitHub](https://github.com/huynguyen792/AG-ReID) ([arXiv][5], [GitHub][6])
+
+* **CARGO (2024)** – Synthetic large-scale AGPReID: 5,000 IDs, 108,563 images from 13 cameras (5 aerial, 8 ground). [Dataset & Paper](https://github.com/LinlyAC/VDT-AGPReID) ([GitHub][11])
+
+---
+
+## Challenges & Benchmarks
+
+* **IJCB2025-AG-VPReID Challenge** – Video-based Re-ID challenge (AG-VPReID). \[Landing & data via Kaggle] ([AG-VPReID 2025][12])
+
+* **IJCB2023-AG-ReID Challenge** – AG-ReID image-based challenge results. [Details](https://vision.csee.wvu.edu/publications/nguyen23ijcb.pdf) ([西维吉尼亚大学视觉中心][13])
+
+---
 
 ## Contact
 
 Feel free to reach out if you have any questions, suggestions, or collaboration proposals:
 
-- Email: [924973292@mail.dlut.edu.cn](mailto:924973292@mail.dlut.edu.cn)
-- Web: [924973292.github.io](https://924973292.github.io//)
+* Email: [924973292@mail.dlut.edu.cn](mailto:924973292@mail.dlut.edu.cn)
+* Web: [924973292.github.io](https://924973292.github.io)
 
+---
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-AGReID\&type=Date)](https://star-history.com/#924973292/Awesome-AGReID&Date)
+
+---
+
+## Acknowledgments
+
+I want to express my gratitude to the academic community and everyone contributing to the advancement of AGReID research.
 
 ## Citation
 If you find our work useful in your research, please consider citing our papers:
+
 ```bibtex
-@inproceedings{wang2024top,
-  title={TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation},
-  author={Wang, Yuhao and Liu, Xuehu and Zhang, Pingping and Lu, Hu and Tu, Zhengzheng and Lu, Huchuan},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={38},
-  number={6},
-  pages={5758--5766},
-  year={2024}
-}
-
-@InProceedings{Zhang_2024_CVPR,
-    author    = {Zhang, Pingping and Wang, Yuhao and Liu, Yang and Tu, Zhengzheng and Lu, Huchuan},
-    title     = {Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2024},
-    pages     = {17117-17126}
-}
-
-@inproceedings{wang2025decoupled,
-  title={Decoupled feature-based mixture of experts for multi-modal object re-identification},
-  author={Wang, Yuhao and Liu, Yang and Zheng, Aihua and Zhang, Pingping},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={39},
-  number={8},
-  pages={8141--8149},
+@article{hu2025sdreid,
+  title={SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification},
+  author={Hu, Xiang and Zhang, Pingping and Wang, Yuhao and Yan, Bin and Lu, Huchuan},
+  journal={arXiv preprint arXiv:2504.09549},
   year={2025}
 }
 
-@inproceedings{wang2025mambapro,
-  title={Mambapro: Multi-modal object re-identification with mamba aggregation and synergistic prompt},
-  author={Wang, Yuhao and Liu, Xuehu and Yan, Tianyu and Liu, Yang and Zheng, Aihua and Zhang, Pingping and Lu, Huchuan},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={39},
-  number={8},
-  pages={8150--8158},
-  year={2025}
-}
-
-@article{wang2025idea,
-  title={IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification},
-  author={Wang, Yuhao and Lv, Yongfeng and Zhang, Pingping and Lu, Huchuan},
-  journal={arXiv preprint arXiv:2503.10324},
+@article{hu2025latex,
+  title={LATeX: Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification},
+  author={Hu, Xiang and Wang, Yuhao and Zhang, Pingping and Lu, Huchuan},
+  journal={arXiv preprint arXiv:2503.23722},
   year={2025}
 }
 ```
+
+---
+
+[1]: https://arxiv.org/html/2504.09549v1?utm_source=chatgpt.com "SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re ..."
+[2]: https://arxiv.org/abs/2503.08121?utm_source=chatgpt.com "AG-VPReID: A Challenging Large-Scale Benchmark for Aerial-Ground Video-based Person Re-Identification"
+[3]: https://cvpr.thecvf.com/virtual/2025/poster/33154?utm_source=chatgpt.com "CVPR Poster AG-VPReID: A Challenging Large-Scale Benchmark ..."
+[4]: https://arxiv.org/abs/2403.14513?utm_source=chatgpt.com "View-decoupled Transformer for Person Re-identification under Aerial-ground Camera Network"
+[5]: https://arxiv.org/abs/2303.08597?utm_source=chatgpt.com "Aerial-Ground Person Re-ID"
+[6]: https://github.com/huynguyen792/AG-ReID?utm_source=chatgpt.com "huynguyen792/AG-ReID - GitHub"
+[7]: https://arxiv.org/html/2505.04793v1?utm_source=chatgpt.com "A Stress-Test Dataset for Real-World UAV-Based Person Recognition"
+[8]: https://openaccess.thecvf.com/content/CVPR2025/papers/Nguyen_AG-VPReID_A_Challenging_Large-Scale_Benchmark_for_Aerial-Ground_Video-based_Person_Re-Identification_CVPR_2025_paper.pdf?utm_source=chatgpt.com "[PDF] AG-VPReID: A Challenging Large-Scale Benchmark for Aerial ..."
+[9]: https://arxiv.org/abs/2401.02634?utm_source=chatgpt.com "AG-ReID.v2: Bridging Aerial and Ground Views for Person Re-identification"
+[10]: https://github.com/huynguyen792/AG-ReID.v2?utm_source=chatgpt.com "huynguyen792/AG-ReID.v2 - GitHub"
+[11]: https://github.com/LinlyAC/VDT-AGPReID?utm_source=chatgpt.com "LinlyAC/VDT-AGPReID: View-decoupled Transformer for ... - GitHub"
+[12]: https://agvpreid25.github.io/?utm_source=chatgpt.com "AG-VPReID 2025"
+[13]: https://vision.csee.wvu.edu/publications/nguyen23ijcb.pdf?utm_source=chatgpt.com "[PDF] AG-ReID 2023: Aerial-Ground Person Re-identification Challenge ..."
+
