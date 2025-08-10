@@ -69,8 +69,7 @@ Feel free to reach out if you have any questions, suggestions, or collaboration 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-AGReID\&type=Date)](https://star-history.com/#924973292/Awesome-AGReID&Date)
-
+[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-Aerial-Ground-Object-Re-Identification&type=Date)](https://www.star-history.com/#924973292/Awesome-Aerial-Ground-Object-Re-Identification&Date)
 ---
 
 ## Acknowledgments
@@ -92,6 +91,13 @@ If you find our work useful in your research, please consider citing our papers:
   title={LATeX: Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification},
   author={Hu, Xiang and Wang, Yuhao and Zhang, Pingping and Lu, Huchuan},
   journal={arXiv preprint arXiv:2503.23722},
+  year={2025}
+}
+
+@article{nguyen2025ag,
+  title={AG-VPReID 2025: Aerial-Ground Video-based Person Re-identification Challenge Results},
+  author={Nguyen, Kien and Fookes, Clinton and Sridharan, Sridha and Nguyen, Huy and Liu, Feng and Liu, Xiaoming and Ross, Arun and Michalski, Dana and Endrei, Tam{\'a}s and DeAndres-Tame, Ivan and others},
+  journal={arXiv preprint arXiv:2506.22843},
   year={2025}
 }
 ```
